@@ -1,5 +1,5 @@
 import type { ECharts, EChartsOption } from 'echarts';
-import echarts from 'echarts';
+import * as echarts from 'echarts';
 import { nextTick, Ref, unref } from 'vue';
 import { tryOnUnmounted } from '../../utils/vue';
 import { useDebounce } from '../core/useDebounce';
